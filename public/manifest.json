@@ -1,0 +1,15 @@
+{
+  "short_name": "VMEDIS",
+  "name": "Vmedis Offline Website",
+  "icons": [
+    {
+      "src": "https://i.picsum.photos/id/533/100/100.jpg?hmac=OUcoPZYUPb7rDoU4STh-uw-899VtngRJqnP1drjWRgc",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
