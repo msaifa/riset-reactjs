@@ -14,7 +14,7 @@
       "url": "https://vmedis.com"
     }
   ],
-  "homepage": "https://master.dfzu9hao53dxe.amplifyapp.com/v2",
+  "homepage": ".",
   "copyright": "Copyright Vmedis",
   "license": "",
   "private": true,
@@ -50,7 +50,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mkdir build/v2 && mv build/* build/v2/",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
